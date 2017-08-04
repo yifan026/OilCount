@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:id="@+id/myAdapter_oilTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:text="Oil"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginStart="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="#072973"
+        android:textSize="28dp" />
+
+    <!-- android:layout_toLeftOf="@+id/MyAdapter_CheckBox_checkBox" -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="result situation"
+        android:id="@+id/myAdapter_resultSituation_textView"
+        android:textStyle="bold"
+        android:layout_marginEnd="89dp"
+        android:layout_alignBaseline="@+id/myAdapter_oilTextView"
+        android:layout_alignBottom="@+id/myAdapter_oilTextView"
+        android:layout_alignParentEnd="true"
+        android:textColor="#f80b0b"
+        android:textSize="28dp" />
+
+
+</RelativeLayout>
